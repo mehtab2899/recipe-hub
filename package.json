@@ -1,6 +1,7 @@
 {
   "name": "recipe-hub",
   "version": "0.0.0",
+  "homepage": "https://mehtab2899.github.io/recipe-hub",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "netlify-cli": "^6.5.4",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
