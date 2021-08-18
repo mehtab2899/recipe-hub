@@ -13,15 +13,12 @@ const Recipes = () => {
       `https://api.edamam.com/search?q=${query}&app_id=${app_id}&app_key=${app_key}&from=0&to=10&calories=591-722&health=alcohol-free`
     );
     setRecipes(response.data.hits);
-    console.log(response.data.hits);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     fetchRecipes();
   };
-
-  console.log(recipes);
 
   return (
     <div>
